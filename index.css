@@ -36,7 +36,7 @@ button{
 button:hover{
     cursor: pointer;
     font-weight: 200;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 #increment{
     background-color: #850000;
