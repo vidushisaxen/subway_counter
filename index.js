@@ -1,4 +1,3 @@
-
 let entry=document.getElementById("text");
 let count=0;
 let counter=document.getElementById("count");
