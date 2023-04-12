@@ -6,10 +6,15 @@ function incre(){
     counter.innerText=count; 
 }
 function save(){
+    if(count==0){
+        alert("No passenger entered");
+    }
+    else{
     let countstr=count+" - ";
     entry.textContent += countstr;
     counter.textContent=0;
     count=0;
     console.log(count);
+    }
 }
 
